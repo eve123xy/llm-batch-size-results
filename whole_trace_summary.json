@@ -1,0 +1,74 @@
+[
+  {
+    "N": 1,
+    "repeats": 4,
+    "batch_wall_mean_ms": 1105.63,
+    "batch_wall_median_ms": 981.34,
+    "batch_wall_cv_percent": 30.63982891731784,
+    "agent_trace_wall_mean_ms": 1108.62,
+    "turns_mean": 4.5,
+    "tool_turns_mean": 3.5,
+    "gen_tokens_mean": 226.0,
+    "success_rate": 1.0
+  },
+  {
+    "N": 2,
+    "repeats": 4,
+    "batch_wall_mean_ms": 1182.855,
+    "batch_wall_median_ms": 1060.41,
+    "batch_wall_cv_percent": 30.455107621779582,
+    "agent_trace_wall_mean_ms": 1188.93125,
+    "turns_mean": 3.75,
+    "tool_turns_mean": 2.75,
+    "gen_tokens_mean": 204.5,
+    "success_rate": 1.0
+  },
+  {
+    "N": 4,
+    "repeats": 4,
+    "batch_wall_mean_ms": 1511.3425,
+    "batch_wall_median_ms": 1394.22,
+    "batch_wall_cv_percent": 24.52276756022734,
+    "agent_trace_wall_mean_ms": 1522.924375,
+    "turns_mean": 3.625,
+    "tool_turns_mean": 2.5625,
+    "gen_tokens_mean": 201.5625,
+    "success_rate": 1.0
+  },
+  {
+    "N": 8,
+    "repeats": 4,
+    "batch_wall_mean_ms": 2079.385,
+    "batch_wall_median_ms": 2145.7400000000002,
+    "batch_wall_cv_percent": 14.737739638813192,
+    "agent_trace_wall_mean_ms": 2102.79,
+    "turns_mean": 3.71875,
+    "tool_turns_mean": 2.6875,
+    "gen_tokens_mean": 205.125,
+    "success_rate": 1.0
+  },
+  {
+    "N": 16,
+    "repeats": 4,
+    "batch_wall_mean_ms": 2832.7375,
+    "batch_wall_median_ms": 2830.45,
+    "batch_wall_cv_percent": 1.7548611351298642,
+    "agent_trace_wall_mean_ms": 2878.98515625,
+    "turns_mean": 3.640625,
+    "tool_turns_mean": 2.609375,
+    "gen_tokens_mean": 206.59375,
+    "success_rate": 1.0
+  },
+  {
+    "N": 32,
+    "repeats": 4,
+    "batch_wall_mean_ms": 4518.63,
+    "batch_wall_median_ms": 3952.26,
+    "batch_wall_cv_percent": 28.019041292222415,
+    "agent_trace_wall_mean_ms": 4603.85484375,
+    "turns_mean": 3.6484375,
+    "tool_turns_mean": 2.625,
+    "gen_tokens_mean": 210.203125,
+    "success_rate": 1.0
+  }
+]
