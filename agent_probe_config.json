@@ -1,0 +1,29 @@
+{
+  "workload": "controlled local retrieval-agent trace",
+  "question": "Why does the Cheshire Cat say that everyone in Wonderland is mad, and what happens to the Cat at the end of its conversation with Alice?",
+  "system_prompt": "You answer questions using the supplied local-book excerpts. First state a short search query. After you receive excerpts, answer only from those excerpts and say when the evidence is insufficient.",
+  "tools": {
+    "search_corpus": "Ranks local Alice in Wonderland paragraphs by word overlap and returns the top 3 passage ids.",
+    "read_passage": "Returns the selected local-book passages verbatim."
+  },
+  "corpus_path": "/scratch/xl5874/AI-Inference/prompt_diversity_probe/data/alice_wonderland.txt",
+  "model": "hugging-quants/Meta-Llama-3.1-8B-Instruct-AWQ-INT4",
+  "vllm_version": "0.23.0",
+  "batch_sizes": [
+    1,
+    2,
+    4,
+    8,
+    16,
+    32
+  ],
+  "repeats": 4,
+  "max_new_tokens_per_model_turn": 128,
+  "temperature": 0.0,
+  "max_model_len": 4096,
+  "model_turns_per_trace": 2,
+  "tool_turns_per_trace": 2,
+  "power_sample_interval_s": 0.01,
+  "slurm_job_id": "17230737",
+  "gpu_name": "NVIDIA H100 80GB HBM3"
+}
